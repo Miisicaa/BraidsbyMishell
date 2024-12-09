@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braids by Mishell</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5f7;
+            color: #3a3a3a;
+        }
+        header {
+            background-color: #ffccd5;
+            padding: 20px;
+            text-align: center;
+            background-image: url('https://via.placeholder.com/1500x200'); /* Zmeň na svoje pozadie */
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.3em;
+            margin: 10px 0;
+        }
+        .hero {
+            background-color: #ffe6e9;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            color: #d94e67;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #d94e67;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #b94053;
+        }
+        .content-section {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fff5f7;
+        }
+        .content-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            color: #d94e67;
+            margin-bottom: 20px;
+        }
+        .content-section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #555555;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #ffccd5;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9em;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Braids by Mishell</h1>
+        <p>Štýlové vrkoče s láskou a precíznosťou</p>
+    </header>
+    <div class="hero">
+        <h2>Objednaj sa ešte dnes</h2>
+        <a href="#contact" class="button">Kontaktuj nás</a>
+    </div>
+    <div class="content-section">
+        <h3>Naše služby</h3>
+        <p>Špecializujeme sa na klasické, francúzske a kreatívne vrkoče. Vyber si štýl, ktorý ti najviac sedí!</p>
+    </div>
+    <div class="content-section gallery">
+        <img src="https://via.placeholder.com/300" alt="Ukážka vrkočov 1">
+        <img src="https://via.placeholder.com/300" alt="Ukážka vrkočov 2">
+        <img src="https://via.placeholder.com/300" alt="Ukážka vrkočov 3">
+    </div>
+    <footer>
+        <p>© 2024 Braids by Mishell | Kontakt: info@braidsbymishell.sk</p>
+    </footer>
+</body>
+</html>
